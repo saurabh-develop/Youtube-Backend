@@ -1,3 +1,4 @@
+// This is api error class used for managing and manipulating the error by inheriting error class
 class ApiError extends Error {
   constructor(
     statusCode,

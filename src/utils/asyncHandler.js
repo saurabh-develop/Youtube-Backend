@@ -12,7 +12,7 @@
 // };
 
 //  Promises Method
-
+// !! Explore this code more
 const asyncHandler = (requestHandler) => {
   (req, res, next) => {
     Promise.resolve(requestHandler(req, res, next)).catch(error);
