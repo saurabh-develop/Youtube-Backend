@@ -16,3 +16,5 @@ const connextDB = async () => {
 };
 
 export default connextDB;
+
+// Read more about http
