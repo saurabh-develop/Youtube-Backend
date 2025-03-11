@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import { DB_NAME } from "../constants.js";
 
-const connextDB = async () => {
+const connectDB = async () => {
   try {
     const connectionInstance = await mongoose.connect(
       `${process.env.MONGODB_URI}/${DB_NAME}`
@@ -15,6 +15,7 @@ const connextDB = async () => {
   }
 };
 
-export default connextDB;
+export default connectDB;
 
 // Read more about http
+// Read about beason data
